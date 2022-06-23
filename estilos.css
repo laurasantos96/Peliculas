@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.icononav{
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+h1, h2,h3, h4, h5, h6, p, a{
+
+    font-family: 'Joan', serif;
+}
+
+.titulonav{
+
+    
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.titulonav:hover{
+
+    transform: scale(130%);
+    transition: 1s;
+    color: orangered;
+}
+
+.info{
+
+    text-decoration: none;
+    color: black;
+
+}
+.info:hover{
+
+    transform: scale(180%);
+    transition: 0.8s;
+    color: red;
+
+}
+
+.card-title:hover{
+    
+    color: orangered;
+    
+}
+
+#cartas{
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.footer{
+
+    margin-top: 5rem;
+
+}
